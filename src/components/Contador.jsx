@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import '../styles/Contador.css'
 
 // Define o componente funcional Contador
-function Contador () {
+function Contador () { 
     // Define um estado 'count' inicializado com o valor 0, e uma função 'setCount' para atualizar esse estado
     const [count, setCount] = useState(0)
     
@@ -38,7 +38,7 @@ function Contador () {
 
     const reset = () => {
         //Atualiza o estado 'count' para 0
-        setCount(0);
+        setCount(0)
     }
 
     // Renderiza o conteúdo do componente

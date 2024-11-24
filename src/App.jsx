@@ -1,12 +1,12 @@
 import React from 'react';
-import '../src/styles/Contador.css';
 import Contador from './components/Contador';
-import ContadorSimples from './components/Contador';
+import ColorChange from './components/ColorChange';
+import ToDo from './components/ToDoList';
 
 function App() {
   return (
     <div>
-      <ContadorSimples/>
+      <ToDo/>
     </div>
   );
 }
